@@ -1,0 +1,16 @@
+{
+  "name": "Operação normal",
+  "description": "Apenas ruído de fundo de baixa severidade, sem nenhuma crise. Útil para validar que a aplicação roda de forma estável em repouso.",
+  "hosts": [
+    { "name": "SW-CORE-01", "triggers": ["High CPU load", "Interface Gi0/1 flapping"] },
+    { "name": "SW-ACCESS-02", "triggers": ["Port utilization high", "Interface down"] },
+    { "name": "RTR-BORDA-01", "triggers": ["Link latency above threshold", "BGP session flapping"] },
+    { "name": "UNIFI-AP-05", "triggers": ["Client count high", "AP unreachable"] }
+  ],
+  "background_noise": {
+    "enabled": true,
+    "every_ms": 4000,
+    "severities": ["Information", "Warning"]
+  },
+  "bursts": []
+}

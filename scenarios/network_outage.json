@@ -1,0 +1,39 @@
+{
+  "name": "Queda total de rede - Link da operadora",
+  "description": "Simula ruído de fundo normal, seguido por uma escalada de problemas Average, depois High, culminando em um evento Disaster no link da operadora — reproduzindo o incidente real que motivou o LogSavior.",
+  "hosts": [
+    { "name": "SW-CORE-01", "triggers": ["High CPU load", "Interface Gi0/1 flapping"] },
+    { "name": "SW-ACCESS-02", "triggers": ["Port utilization high", "Interface down"] },
+    { "name": "RTR-BORDA-01", "triggers": ["Link latency above threshold", "BGP session flapping"] },
+    { "name": "UNIFI-AP-05", "triggers": ["Client count high", "AP unreachable"] },
+    { "name": "LINK-OPERADORA-X", "triggers": ["Total packet loss - WAN", "Link down"] }
+  ],
+  "background_noise": {
+    "enabled": true,
+    "every_ms": 4000,
+    "severities": ["Information", "Warning"]
+  },
+  "bursts": [
+    {
+      "delay_before_ms": 5000,
+      "severity": "Average",
+      "count": 6,
+      "interval_ms": 1500,
+      "hosts_involved": 3
+    },
+    {
+      "delay_before_ms": 8000,
+      "severity": "High",
+      "count": 3,
+      "interval_ms": 1000,
+      "hosts_involved": 2
+    },
+    {
+      "delay_before_ms": 4000,
+      "severity": "Disaster",
+      "count": 1,
+      "interval_ms": 0,
+      "hosts_involved": 1
+    }
+  ]
+}
