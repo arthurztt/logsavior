@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/empresa/logsavior-generator/internal/domain"
+	"github.com/arthurztt/logsavior/internal/domain"
 )
 
 // StdoutSender apenas imprime o JSON do evento no terminal.

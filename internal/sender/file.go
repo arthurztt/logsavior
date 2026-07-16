@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/empresa/logsavior-generator/internal/domain"
+	"github.com/arthurztt/logsavior/internal/domain"
 )
 
 // FileSender acrescenta cada evento como uma linha JSON (formato JSONL) em

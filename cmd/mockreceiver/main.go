@@ -12,7 +12,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/empresa/logsavior-generator/internal/domain"
+	"github.com/arthurztt/logsavior/internal/domain"
 )
 
 func main() {

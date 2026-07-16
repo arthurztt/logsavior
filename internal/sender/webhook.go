@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/empresa/logsavior-generator/internal/domain"
+	"github.com/arthurztt/logsavior/internal/domain"
 )
 
 // WebhookSender envia cada evento via HTTP POST, simulando exatamente o que

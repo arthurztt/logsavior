@@ -11,8 +11,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/empresa/logsavior-generator/internal/generator"
-	"github.com/empresa/logsavior-generator/internal/sender"
+	"github.com/arthurztt/logsavior/internal/generator"
+	"github.com/arthurztt/logsavior/internal/sender"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/empresa/logsavior-generator/internal/domain"
+	"github.com/arthurztt/logsavior/internal/domain"
 )
 
 // EventSender é implementado por qualquer destino capaz de receber os
