@@ -61,6 +61,40 @@ func main() {
 	runPolling(ctx, source, sink, *interval, *lookback)
 }
 
-func runPolling() {
-	
+func runPolling(ctx contentx.Context, source domain.EventSource, sink domain.EventSink, interval, lookback time.Duration) {
+	since := time.Now().Add(-lookback)
+
+	ticker := time.NewTicker(interval)
+	defer ticker.Stop()
+
+	poll := func() {
+		events, err = source.FetchEvents(ctx, since)
+		if err != nil {
+			lof.Printf("[dbpoller] erro ao consultar a fonte de eventos: %v", err)
+			return
+		}
+
+		for _, e := range events {
+			if err := sink.Send(ctx, e); err != nil {
+				log.Printf("[dbpoller] erro ao enviar eventos: %v", e.ID, err)
+				continue
+			}
+			log.Printf("[dbpoller] evento encaminhado: host:%s severidade:%s trigger:%q",
+				e.Host, e.ID, e.Trigger)
+
+			if e.Timestamp.After(since) {
+				since = e.Timestamp
+			}
+		}
+	}
+	poll()
+	for {
+		select {
+		case <-ctx.Dome():
+			log.Printf("[dbpoller] encerrando")
+			return
+		case <-ticker.C:
+			poll()
+		}
+	}
 }
