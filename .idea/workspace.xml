@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18190e09-ead1-47d1-824e-128525172bfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/internal/domain/contracts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/generator/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/generator/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="16" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.26.4.windows-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3884706335883806E-7" />
+      <entry key="MS500" value="0.042511589137686094" />
+      <entry key="S2" value="0.4540742088607548" />
+      <entry key="S5" value="0.7292069352694942" />
+      <entry key="S10" value="0.8545539110713448" />
+      <entry key="S30" value="1.239923408835163" />
+      <entry key="S60" value="2.6162332106166177" />
+      <entry key="M2" value="7.081062326564281" />
+      <entry key="M5" value="20.857394097913804" />
+      <entry key="M10" value="39.54747412640981" />
+      <entry key="M15" value="58.25946642897956" />
+      <entry key="M30" value="101.28283686344254" />
+      <entry key="H1" value="142.87360653554538" />
+      <entry key="H2" value="172.3867379142887" />
+      <entry key="H4" value="190.04772806475282" />
+      <entry key="D1" value="206.5027411311006" />
+      <entry key="W1" value="209.49600493991582" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000038535923" />
+      <entry key="S10" value="1.0001168426732874" />
+      <entry key="S30" value="1.1214327089002791" />
+      <entry key="S60" value="1.6992804076510881" />
+      <entry key="M2" value="2.752432174233274" />
+      <entry key="M5" value="4.383975501839584" />
+      <entry key="M10" value="5.421109227432243" />
+      <entry key="M15" value="5.872071463908363" />
+      <entry key="M30" value="6.393563892859177" />
+      <entry key="H1" value="6.685144245368002" />
+      <entry key="H2" value="6.839523590150358" />
+      <entry key="H4" value="6.918981487930281" />
+      <entry key="D1" value="6.9863869580901135" />
+      <entry key="W1" value="6.9980525660416655" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.9995746670690126E-7" />
+      <entry key="MS500" value="0.06105651516916117" />
+      <entry key="S2" value="0.8144176957848699" />
+      <entry key="S5" value="1.3931398955007515" />
+      <entry key="S10" value="1.6692610658608136" />
+      <entry key="S30" value="2.284768619266393" />
+      <entry key="S60" value="4.252447788991042" />
+      <entry key="M2" value="9.765100436239235" />
+      <entry key="M5" value="25.17418347110792" />
+      <entry key="M10" value="44.91900075653706" />
+      <entry key="M15" value="64.09324856725632" />
+      <entry key="M30" value="107.65371577916322" />
+      <entry key="H1" value="149.5461958959855" />
+      <entry key="H2" value="179.21961258181602" />
+      <entry key="H4" value="196.96328085448772" />
+      <entry key="D1" value="213.4885410250955" />
+      <entry key="W1" value="216.49397324110316" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3GpBIM1VtmbOQMrdCqMC2oyheMb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginOnboardingV2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.analysis.ui.options.defaults&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/artki&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\Personal Projects\logsavior" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build generator/">
+    <configuration name="go build generator/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="logsavior" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/arthurztt/logsavior/cmd/generator" />
+      <directory value="$PROJECT_DIR$" />
+      <auto_managed_config_id value="$PROJECT_DIR$/cmd/generator" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/arthurztt/logsavior/diff" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="logsavior" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/arthurztt/logsavior/diff" />
+      <directory value="$PROJECT_DIR$" />
+      <auto_managed_config_id value="$PROJECT_DIR$/diff" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mockreceiver/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="logsavior" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/arthurztt/logsavior/cmd/mockreceiver" />
+      <directory value="$PROJECT_DIR$" />
+      <auto_managed_config_id value="$PROJECT_DIR$/cmd/mockreceiver" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-72a9cf600ed8-3dd3895e5e08-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-261.25134.147" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-GO-261.25134.147" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18190e09-ead1-47d1-824e-128525172bfb" name="Changes" comment="" />
+      <created>1784658551551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784658551551</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
